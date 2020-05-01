@@ -1,7 +1,8 @@
 def join_nested_strings(src)
   outer_count = 0 
   final_arr = []
-  sentence = ""
+  
+  
   while outer_count < src.length do 
     inner_count = 0 
     while inner_count < src[outer_count].length
